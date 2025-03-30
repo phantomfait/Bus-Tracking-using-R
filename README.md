@@ -17,37 +17,13 @@ This Shiny application demonstrates real-time bus tracking along routes in New Y
 - RStudio (recommended for development)
 
 ## Required Packages
-
-```R
 install.packages(c("shiny", "googleway", "dplyr", "shinydashboard"))
-```
 
-## Setup
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/yourusername/bus-tracking-app.git
-cd bus-tracking-app
-```
-
-2. Create an `api_key.R` file with your Google Maps API key:
-
-```R
-api_key <- "YOUR_GOOGLE_MAPS_API_KEY"
-```
-
-3. Make sure you have enabled the following Google Maps APIs:
+## Make sure you have enabled the following Google Maps APIs:
 
    - Maps JavaScript API
    - Places API
    - Geocoding API
-
-4. Run the application:
-
-```R
-shiny::runApp()
-```
 
 ## Data Structure
 
@@ -60,14 +36,3 @@ The application uses a CSV file (`bus_routes.csv`) containing the following colu
 - longitude: Stop longitude
 - sequence: Stop sequence number
 
-## License
-
-MIT License
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
