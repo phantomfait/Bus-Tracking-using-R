@@ -1,0 +1,5 @@
+# Replace with your Google Maps API key
+# Get one at: https://console.cloud.google.com/
+# Enable: Maps JavaScript API, Places API, and Geocoding API
+
+api_key <- "YOUR_GOOGLE_MAPS_API_KEY_HERE" 

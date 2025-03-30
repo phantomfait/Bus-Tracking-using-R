@@ -1,0 +1,15 @@
+# R specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# API keys and sensitive information
+api_key.R
+
+# OS specific files
+.DS_Store
+.Thumbs.db
+
+# RStudio project files
+*.Rproj 
